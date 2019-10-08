@@ -22,6 +22,7 @@ namespace MovieLibraryProject.Controllers
             context = new ApplicationDbContext();
         }
 
+
        
         
             // GET: api/Movie
@@ -31,23 +32,12 @@ namespace MovieLibraryProject.Controllers
                 return movies;
             }
         
-      
-        
-
-        // GET: api/Movie/5
-
-        public IHttpActionResult Get() {
-            IEnumerable<Movie>;
-            {
-
-                return new string[] { "value1", "value2" };
-            }
-        }
-
+     
         // GET: api/Movies/5
 
         public string Get(int id)
         {
+
             return "value";
         }
 
