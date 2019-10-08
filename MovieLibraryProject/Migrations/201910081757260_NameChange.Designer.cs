@@ -7,13 +7,13 @@ namespace MovieLibraryProject.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Init : IMigrationMetadata
+    public sealed partial class NameChange : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Init));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(NameChange));
         
         string IMigrationMetadata.Id
         {
-            get { return "201910081700430_Init"; }
+            get { return "201910081757260_NameChange"; }
         }
         
         string IMigrationMetadata.Source
