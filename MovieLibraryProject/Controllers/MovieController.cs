@@ -16,17 +16,18 @@ namespace MovieLibraryProject.Controllers
         {
             context = new ApplicationDbContext();
         }
-        public IHttpActionResult Get() {
-            IEnumerable<Movie> 
-            {
-
-                return new string[] { "value1", "value2" };
-            }
+       
+        public IEnumerable<Movie> Get()
+        {
+            var movies = context.Movies.ToList();
+             return movies;
         }
+        
 
         // GET: api/Movies/5
         public string Get(int id)
         {
+
             return "value";
         }
 
