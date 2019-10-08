@@ -1,22 +1,27 @@
+
 ﻿using MovieLibraryProject.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
+
+
 namespace MovieLibraryProject.Controllers
 {
     public class MovieController : ApiController
     {
         ApplicationDbContext context;
-       // public List<Movie> movies = new List<Movie>();
+
+        // GET: api/Movies
 
         public MovieController()
         {
             context = new ApplicationDbContext();
         }
+
        
         
             // GET: api/Movie
@@ -30,22 +35,41 @@ namespace MovieLibraryProject.Controllers
         
 
         // GET: api/Movie/5
+
+        public IHttpActionResult Get() {
+            IEnumerable<Movie>;
+            {
+
+                return new string[] { "value1", "value2" };
+            }
+        }
+
+        // GET: api/Movies/5
+
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/Movie
+
+        
+        // POST: api/Movies
         public void Post([FromBody]string value)
         {
         }
 
+
         // PUT: api/Movie/5
+
+       
+
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE: api/Movie/5
+       
+
+        // DELETE: api/Movies/5
         public void Delete(int id)
         {
         }

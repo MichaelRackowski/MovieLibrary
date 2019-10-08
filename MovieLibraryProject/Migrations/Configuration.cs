@@ -20,7 +20,11 @@ namespace MovieLibraryProject.Migrations
           //  new Models.Movie { Title = "Inception", Genre = "Drama", DirectorName = "Christopher Nolan" },
           //  new Models.Movie { Title = "Pineapple Express", Genre = "Comedy", DirectorName = "David Gordon Green" },
           //  new Models.Movie { Title = "Die Hard", Genre = "Action", DirectorName = "John McTiernan" }
+
           //  );
+
+        
+
 
         }
     }
