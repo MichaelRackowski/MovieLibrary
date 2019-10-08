@@ -9,6 +9,10 @@ namespace MovieLibraryProject.Models
     public class Movie
     {
         [Key]
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Genere { get; set; }
+        public string DirectorName { get; set; }
 
     }
 }
