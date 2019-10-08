@@ -14,13 +14,13 @@ namespace MovieLibraryProject.Migrations
 
         protected override void Seed(MovieLibraryProject.Models.ApplicationDbContext context)
         {
-          context.Movies.AddOrUpdate(
-            new Models.Movie { Title = "The Departed", Genre = "Drama", DirectorName = "Martin Scorsese" },
-            new Models.Movie { Title = "The Dark Knight", Genre = "Drama", DirectorName = "Christopher Nolan" },
-            new Models.Movie { Title = "Inception", Genre = "Drama", DirectorName = "Christopher Nolan" },
-            new Models.Movie { Title = "Pineapple Express", Genre = "Comedy", DirectorName = "David Gordon Green" },
-            new Models.Movie { Title = "Die Hard", Genre = "Action", DirectorName = "John McTiernan" }
-            );
+          //context.Movies.AddOrUpdate(
+          //  new Models.Movie { Title = "The Departed", Genre = "Drama", DirectorName = "Martin Scorsese" },
+          //  new Models.Movie { Title = "The Dark Knight", Genre = "Drama", DirectorName = "Christopher Nolan" },
+          //  new Models.Movie { Title = "Inception", Genre = "Drama", DirectorName = "Christopher Nolan" },
+          //  new Models.Movie { Title = "Pineapple Express", Genre = "Comedy", DirectorName = "David Gordon Green" },
+          //  new Models.Movie { Title = "Die Hard", Genre = "Action", DirectorName = "John McTiernan" }
+          //  ); 
 
         }
     }
